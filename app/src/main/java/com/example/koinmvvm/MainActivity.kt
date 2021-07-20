@@ -10,7 +10,6 @@ import androidx.lifecycle.ViewModelProvider
 class MainActivity : AppCompatActivity() {
     lateinit var myViewModel: MyMyViewModel
     lateinit var button: Button
-    lateinit var service: RemoteViewsService
     private lateinit var imageView: ImageView
 
     override fun onCreate(savedInstanceState: Bundle?) {
