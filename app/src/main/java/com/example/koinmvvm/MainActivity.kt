@@ -3,12 +3,14 @@ package com.example.koinmvvm
 import android.os.Bundle
 import android.widget.Button
 import android.widget.ImageView
+import android.widget.RemoteViewsService
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.ViewModelProvider
 
 class MainActivity : AppCompatActivity() {
     lateinit var myViewModel: MyMyViewModel
     lateinit var button: Button
+    lateinit var service: RemoteViewsService
     private lateinit var imageView: ImageView
 
     override fun onCreate(savedInstanceState: Bundle?) {
